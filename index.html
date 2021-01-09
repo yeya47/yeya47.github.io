@@ -24,9 +24,16 @@
 <footer>
     &copy;
     2021|Yessica Jaurez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning home</a>
-
+     Today's Date:<span id="currentdate"></span>
 
 </footer>  
+<script>
+    //toLocalDateString
+    const options = {weekday:"long", day: "numeric", month:"long",year:"numeric"};
+    document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en.us", options);
+  
+   
+</script>
 
 </body>
 </html>
