@@ -1,0 +1,23 @@
+body {
+    font-size:20px ;
+    line-height: normal;
+
+}
+footer, header, nav, main {
+    
+    margin: 1.25rem auto;
+    max-width: 760px;
+    
+}
+header, footer {
+    background-color:#fac8cd ;
+    color: #40476d;
+    text-align: center;
+    padding: 2rem;
+}
+
+main image{
+    float: right;
+    margin: 15px;
+    border: .5px solid #faffd8 ;
+}
