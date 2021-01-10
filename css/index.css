@@ -3,8 +3,8 @@ body {
     line-height: normal;
 }
 
-footer, header, nav, main, h2 {
-    
+footer, header, nav, main  {
+
     margin: 1.25rem auto;
     max-width : 760px;
     text-align: left;
@@ -22,4 +22,8 @@ main image{
     margin: 15px;
     border: .5px solid #faffd8 ;
 }
-main { float: right;}
+
+h2{
+    text-align: left;
+
+}
