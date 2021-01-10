@@ -18,8 +18,10 @@ footer, header, nav, main  {
 }
  img { 
      float: right;
-     margin: 10px;
+     
      border: 1px solid #000;
+     margin: 1.25rem auto;
+    max-width : 760px;
 
     
 
