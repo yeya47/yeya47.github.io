@@ -3,7 +3,7 @@ body {
     line-height: normal;
 }
 
-footer, header, nav  {
+footer, header, nav, main  {
 
     margin: 1.25rem auto;
     max-width : 760px;
