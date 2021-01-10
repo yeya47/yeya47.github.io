@@ -17,12 +17,13 @@ footer, header, nav, main  {
     padding: 1.5rem;
 }
  img { 
-     float: right;
      
-     border: 1px solid #000;
-     margin: 1.25rem auto;
-    max-width : 760px;
-
+    float: right;
+    border: 1px solid #000;
+    margin: -15rem auto;
+    max-width: 200px;
+   
+    margin-top: -240px;
     
 
 }
