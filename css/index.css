@@ -3,7 +3,7 @@ body {
     line-height: normal;
 }
 
-footer, header, nav, main  {
+footer, header, nav  {
 
     margin: 1.25rem auto;
     max-width : 760px;
@@ -25,5 +25,7 @@ main image{
 
 h2{
     text-align: left;
+    margin: 1.25rem auto;
+    max-width : 760px;
 
 }
