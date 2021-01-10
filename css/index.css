@@ -16,8 +16,11 @@ footer, header, nav  {
     text-align: center;
     padding: 1.5rem;
 }
- img {
-    object-position: right top;
+ img { 
+     float: right;
+     margin: 10px;
+     border: 1px solid #000;
+
     
 
 }
