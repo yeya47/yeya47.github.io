@@ -17,8 +17,7 @@ footer, header, nav  {
     padding: 1.5rem;
 }
  image{
-    position: absolute;
-    right: 0%;
+    object-position: right top;
     
 
 }
