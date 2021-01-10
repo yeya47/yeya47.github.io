@@ -6,7 +6,8 @@ body {
 footer, header, nav, main {
     
     margin: 1.25rem auto;
-    max-width: 750px;
+    max-width : 760px;
+    text-align: left;
     }
 
     header, footer {
@@ -21,3 +22,4 @@ main image{
     margin: 15px;
     border: .5px solid #faffd8 ;
 }
+main { float: right;}
