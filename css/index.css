@@ -16,13 +16,9 @@ footer, header, nav  {
     text-align: center;
     padding: 1.5rem;
 }
-
-image{
-    float: right;
-    
-    border: .5px solid #faffd8 ;
-    margin: 1.25rem auto;
-    max-width : 760px;
+ image{
+    position: absolute;
+    right: 0%;
 
 }
 
