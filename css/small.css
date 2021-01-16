@@ -1,9 +1,13 @@
+
+
+
 body {
     font-size:20px ;
     line-height: normal;
 }
 
 footer, header, nav, main  {
+    font-family: 'Source Serif Pro', serif;
 
     margin: 1.25rem auto;
     max-width : 760px;
@@ -19,6 +23,7 @@ footer, header, nav, main  {
  img { 
      
    
+
     border: 1px solid #000;
     margin: -15rem auto;
     max-width: 210px;
@@ -29,6 +34,7 @@ footer, header, nav, main  {
 }
 
 h2{
+    font-family: 'Fraunces', serif;
     text-align: left;
     margin: 1.25rem auto;
     max-width : 760px;
