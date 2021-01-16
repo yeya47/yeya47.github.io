@@ -7,7 +7,7 @@ body {
 }
 
 footer, header, nav, main  {
-    font-family: 'Source Serif Pro', serif;
+    
 
     margin: 1.25rem auto;
     max-width : 760px;
@@ -39,4 +39,8 @@ h2{
     margin: 1.25rem auto;
     max-width : 760px;
 
+}
+
+nav{
+    font-family: 'Source Serif Pro', serif; 
 }
