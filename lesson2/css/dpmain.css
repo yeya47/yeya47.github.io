@@ -1,0 +1,49 @@
+body {
+    color:#FFE66D ;
+    font-size:20px ;
+    line-height: normal;
+}
+
+footer, header, main {
+    
+
+    margin: 1.25rem auto;
+    max-width : 760px;
+    text-align: left;
+    }
+
+    header, footer {
+    background-color:#282853 ;
+    color: #40476d;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+@media only screen and (min-width: 37.5em){
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+        }
+    }
+    
+
+@media only screen and (min-width:60em){
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;    
+    }
+}

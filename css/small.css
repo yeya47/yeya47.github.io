@@ -2,6 +2,7 @@
 
 
 body {
+     
     font-size:20px ;
     line-height: normal;
 }
@@ -16,7 +17,7 @@ footer, header, nav, main  {
 
     header, footer {
     background-color:#fac8cd ;
-    color: #40476d;
+    color: #6ca6c1;
     text-align: center;
     padding: 1.5rem;
 }
