@@ -1,5 +1,5 @@
 body {
-    background-color:#FFE66D ;
+    background-color:#E6E2DB ;
     font-size:20px ;
     line-height: normal;
 }
@@ -39,7 +39,7 @@ main section {
 }
 img{
     display: grid;
-  grid-row: 8/9;
+  grid-row: 8/8;
   max-width: 100%;
 }
 
