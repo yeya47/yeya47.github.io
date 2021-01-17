@@ -7,7 +7,7 @@ body {
 footer, header, main {
     grid-gap: 1em;
     margin: 1.25rem auto;
-    max-width : 760px;
+    max-width : 850px;
     text-align: center;
     }
 
