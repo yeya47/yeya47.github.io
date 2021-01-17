@@ -39,7 +39,7 @@ main section {
 }
 img{
     display: grid;
-  grid-row: 8/10;
+  grid-row: 8/9;
   max-width: 100%;
 }
 
