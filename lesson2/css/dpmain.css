@@ -1,5 +1,5 @@
 body {
-    background-color:#E6E2DB ;
+    background-color:#0C0C0C ;
     font-size:20px ;
     line-height: normal;
 }
@@ -33,7 +33,7 @@ main{
 }
 
 main section {
-	border: 1px solid #000;
+	border: .2px solid #000;
 	padding: 0 1rem;
 	background-color: #E3EBF2;
 }
