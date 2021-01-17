@@ -32,6 +32,14 @@ main{
     grid-template-columns: 1fr;
 }
 
+main section {
+	margin: 0.5rem;
+
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
 
 
 
