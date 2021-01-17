@@ -33,9 +33,9 @@ main{
 }
 
 main section {
-	border: 1px solid #bbb;
-	padding: 0 .5rem;
-	background-color: #F5F0F6;
+	border: 1px solid #000;
+	padding: 0 1rem;
+	background-color: #E3EBF2;
 }
 img{
     display: grid;
