@@ -28,8 +28,7 @@ header, h1, h2
 
 main{
     font-family: 'Crimson Text', serif;
-font-family: 'Fraunces', serif;
-    
+
     display: grid 1em;
     grid-template-columns: 1fr;
 }
