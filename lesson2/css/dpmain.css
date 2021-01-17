@@ -5,8 +5,7 @@ body {
 }
 
 footer, header, main {
-    
-
+    grid-gap: 1em;
     margin: 1.25rem auto;
     max-width : 760px;
     text-align: center;
@@ -29,7 +28,7 @@ header, h1, h2
 main{
     font-family: 'Crimson Text', serif;
 
-    display: grid 1em;
+    display: grid ;
     grid-template-columns: 1fr;
 }
 
@@ -41,6 +40,7 @@ main{
 
     main{
         display: grid;
+        grid-gap: 1em;
         grid-template-columns: 1fr 1fr;    
         }
     }
@@ -50,6 +50,7 @@ main{
 
     main{
         display: grid;
+        grid-gap: 1em;
         grid-template-columns: 1fr 1fr 1fr;    
     }
 }
