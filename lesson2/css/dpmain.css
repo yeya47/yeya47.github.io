@@ -4,7 +4,7 @@ body {
     line-height: normal;
 }
 
-footer, header, main section {
+footer, header, main {
     grid-gap: 1em;
     margin: 1.25rem auto;
     max-width : 900px;
