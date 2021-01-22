@@ -38,5 +38,5 @@ try {
   alert('Error with code or your browser does not support Locale');
 }
 
-
+// problme with toLocaleDateString order ... 
 
