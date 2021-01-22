@@ -1,4 +1,4 @@
-const daynames = [
+let daynames = [
 	"Sunday",
 	"Monday",
 	"Tuesday",
@@ -7,7 +7,7 @@ const daynames = [
 	"Friday",
 	"Saturday"
 ];
-const months = [
+let months = [
 	"January",
 	"February",
 	"March",
@@ -21,20 +21,20 @@ const months = [
 	"November",
 	"December"
 ];
-const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = months[d.getMonth()];
+let year = d.getFullYear();
 //const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
-const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+let fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
 // ****************************
 try {
-  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+  let options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
   document.getElementById('currentdate2').textContent = new Date().toLocaleDateString('en-US', options);
-} catch (e) {
-  alert('Error with code or your browser does not support Locale');
-}
+//*} catch (e) {
+ //* alert('Error with code or your browser does not support Locale');
+    }}
 
 // problme with toLocaleDateString order ... 
 
