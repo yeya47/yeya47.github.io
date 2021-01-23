@@ -1,0 +1,39 @@
+header {
+    align-items: center;
+    display: flex;
+    grid-template-columns: 110px auto;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    margin: 0;
+  }
+  
+  nav ul li {
+    text-align: center;
+  }
+  nav a {
+    color: #000000;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  footer, header, nav, main  {
+    
+
+    margin: 1.25rem auto;
+    max-width : 760px;
+    text-align: left;
+    }
+
+    header, footer {
+    background-color:#fac8cd ;
+    color: #6ca6c1;
+    text-align: center;
+    padding: 1.5rem;
+}
