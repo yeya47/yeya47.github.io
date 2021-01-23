@@ -40,7 +40,7 @@ main section {
 img{
   display: grid;
   grid-row: 9/9;
-  max-width: auto;
+  max-width: 100%;
 }
 
 @media only screen and (min-width: 37.5em){
