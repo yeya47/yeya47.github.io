@@ -37,10 +37,11 @@ main section {
 	padding: 0 1rem;
 	background-color: #E0E0E1;
 }
-img{
+section img{
   display: grid;
   grid-row: 9/9;
   max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 37.5em){
