@@ -25,11 +25,16 @@ footer {
 }
 h1 {
   font-family: 'Gentium Book Basic', serif;
-	font-size: 2rem;
+	
 }
 h2 {
   font-family: 'Gentium Book Basic', serif;
 	color: #02020B;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  color: #02020B;
 }
 
 nav {
