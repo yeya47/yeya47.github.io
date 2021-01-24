@@ -9,7 +9,7 @@
      <!--Style Sheets-->
      <link href="weather.css/Site.css" rel="StyleSheet">
 </head>
-<body>
+<body onload="dateTime()">
     <header>
         <img src="images/iconfinder_weather-05_1530388 (1).jpg" alt="Weather IconLogo">
              <nav>
@@ -21,21 +21,22 @@
                </ul>
              </nav>
           </header>
-    <main>
-        <h2>Color scheme</h2>
-        <img src="images/ColorPalete.jpg" alt="Color Palete">
-        <p> This is the color palete that I chose for this site.
-          Primary Color: Persian Green #00a398 </br>
-          Will be aplie to the back ground of the footer and header.
-          Secondary Color: Maroon Web #84130b</br>
-          Will be aplied to the navigator box.
-
+        <main>
+            <h2>Color scheme</h2>
+            <img src="images/ColorPalete.jpg" alt="Color Palete">
+            <p> This is the color palete that I chose for this site.
+            Primary Color: Persian Green #00a398 </br>
+            Will be aplie to the back ground of the footer and header.
+            Secondary Color: Maroon Web #84130b</br>
+            Will be aplied to the navigator box.</p>
+          </main>
+    <footer>
+        &copy;<span id="year"></span>|Yessica Juarez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning Home</a><br>
+        Last modified: <span id="currentdate"></span>
     
-    </p>
-          
-
-
-    </main>
+      
+    <script src="js/date.js"></script>
+    </footer>
     
 </body>
 </html>
