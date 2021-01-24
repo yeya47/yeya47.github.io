@@ -8,7 +8,7 @@ body {
 /* phone or baseline views **************************/
 header
  {
-	background-color: #f09f2d;
+	background-color: #00A398;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -27,11 +27,11 @@ h1 {
 	font-size: 2rem;
 }
 h2 {
-	color: #536878;
+	color: #02020B;
 }
 
 nav {
-	background-color: #03254e;
+	background-color: #84130B;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
@@ -50,8 +50,8 @@ nav ul li a {
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color: #bbb;
-	color: #36454f;
+	background-color: #f09f2d;
+	color: #84130B;
 }
 .active {
 	color: yellow;
@@ -65,7 +65,7 @@ main article {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: #eee;
+	background-color: #02020B;
 }
 main picture {
 	display: none;
