@@ -8,7 +8,7 @@ body {
 /* phone or baseline views **************************/
 header
  {
-	background-color: #bed;
+	background-color: #f09f2d;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -31,7 +31,7 @@ h2 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #03254e;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
@@ -75,7 +75,7 @@ main picture {
 footer {
 	flex: 0 1 100%;
 	height: 2rem;
-  background-color:#EF798A ;
+  background-color:#f09f2d ;
   color: #231123;
   text-align: center;
   padding: 1.5rem;}
