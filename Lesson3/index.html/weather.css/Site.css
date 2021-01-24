@@ -6,8 +6,8 @@ body {
 }
 
 /* phone or baseline views **************************/
-header,
-footer {
+header
+ {
 	background-color: #bed;
 	display: flex;
 	flex-flow: column;
@@ -75,6 +75,16 @@ main picture {
 footer {
 	flex: 0 1 100%;
 	height: 2rem;
+  background-color:#EF798A ;
+  color: #231123;
+  text-align: center;
+  padding: 1.5rem;}
+
+header {
+  align-items: center;
+  display: flex;
+  grid-template-columns: 110px auto;
+  margin-bottom: 10px;
 }
 
 /* Tablet Views ******************************/
@@ -87,7 +97,7 @@ footer {
 
 	/* Grid *********************/
 			nav ul { 
-				display: grid;
+				display: flex;
 				/*grid-template-columns: repeat(5, 1fr);*/
 				grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 			}
