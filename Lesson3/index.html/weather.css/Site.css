@@ -24,9 +24,11 @@ footer {
 	margin: 0 auto;
 }
 h1 {
+  font-family: 'Gentium Book Basic', serif;
 	font-size: 2rem;
 }
 h2 {
+  font-family: 'Gentium Book Basic', serif;
 	color: #02020B;
 }
 
