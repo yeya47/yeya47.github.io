@@ -8,9 +8,9 @@
 
     <link href="weather.css/Site.css" rel="StyleSheet">
 </head>
-<body>
+<body onload="dateTime()">
     <header>
-       <img src="images/IconLogo.png"alt="Weather IconLogo">
+       <img src="images/IconLogo.png" alt="Weather IconLogo">
             <nav>
               <ul>
                 <li><a href="index.html">Home</a></li>
@@ -25,11 +25,11 @@
       
     </main>
     <footer>
-      &copy;
-  2021|Yessica Jaurez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning Home</a><br>
-   |Today's Date:<span id="currentdate"></span>|
-  </footer>
-  <!--JS-->
+      &copy;<span id="year"></span>|Yessica Juarez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning Home</a><br>
+      Last modified: <span id="currentdate"></span>
+  
+    
   <script src="js/date.js"></script>
+  </footer>
 </body>
 </html>
