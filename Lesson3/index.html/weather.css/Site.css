@@ -1,5 +1,4 @@
-@charset "UTF-8"; /* not necessary */
-/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+@charset "UTF-8"; 
 body {
 	font-size: 22px;
 	 font-family: 'Gentium Book Basic', serif;
@@ -62,23 +61,13 @@ nav a:hover {
 	background-color: #f09f2d;
 	color: #84130B;
 }
-.active {
-	color: yellow;
-}
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
-}
+
+
 main article {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
 	background-color: #02020B;
-}
-img {
-	display:flex
-	margin: 0.5rem;
 }
 
 footer {
@@ -130,17 +119,7 @@ header {
 	main {
 		grid-template-columns: 1fr 1fr;
 	}
-	article:nth-child(3) {
-		grid-column: span 2;
-	}
-	main picture {
-		display: block;
-	}
-	main picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
+	
 }
 
 /* Desktop Views ****************************/
@@ -151,7 +130,5 @@ header {
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-	article:nth-child(3) {
-		grid-column: span 1;
-	}
+
 }
