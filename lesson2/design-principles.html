@@ -17,7 +17,7 @@
 
 
 </head>
-<body>
+<body onload="dateTime()">
     <header> <h1>Design Principles </h1> 
               <h2> by Yessica Juarez</h2>
     </header>
@@ -49,12 +49,11 @@
     </main>
     
     <footer>
-        &copy;
-    2021|Yessica Jaurez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning Home</a><br>
-     |Today's Date:<span id="currentdate"></span>|
-    </footer>
-    <!--JS-->
-    <script src="js/date.js"></script>
+        &copy;<span id="year"></span>|Yessica Juarez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning Home</a><br>
+        Last modified: <span id="currentdate"></span>
+    
+      
+    <script src="js/currentdate.js"></script>
 
     
 </body>
