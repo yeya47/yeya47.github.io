@@ -1,7 +1,7 @@
 @charset "UTF-8"; /* not necessary */
 /* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
 body {
-	font-size: 16px;
+	font-size: 22px;
 	 font-family: 'Gentium Book Basic', serif;
 }
 
@@ -25,9 +25,11 @@ footer {
 }
 h1 {
   font-family: 'Gentium Book Basic', serif;
+  font-size: 26px;
 	
 }
 h2 {
+  font-size: 24px;
   font-family: 'Gentium Book Basic', serif;
 	color: #02020B;
 }
@@ -74,8 +76,8 @@ main article {
 	padding: 0 1rem;
 	background-color: #02020B;
 }
-main picture {
-	display: none;
+img {
+	display:flex
 	margin: 0.5rem;
 }
 
