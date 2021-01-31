@@ -1,19 +1,54 @@
 /*35 em  or 560px media query CSS*/
 @media only screen and (min-width: 35em){
     
-  
+    nav ul{
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        
+    }
     
     nav button{
-        display: none;}
+        margin: .2rem 2%;
+        background-color: #f09f2d;
+        border: none;
+        font-size: 1.6rem;
+        color: #02020B;
+    
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        color: #fff;
+        border-top: 1px solid rgba(0,0,0,0.3);
+    
+    }
+    nav ul li a:hover{
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    nav ul li.active{
+        background-color: rgba(0, 0, 0, 0.2); 
+        color: #fff;
+    }
+    
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    
+    }
+   
+  
+    
+    
 
         nav ul li a {
             margin-left:2% ;
 
         }
-        nav ul li {
-            float: left;
-
-        }
+       
 
     nav ul li a{
         border: none;
@@ -22,10 +57,7 @@
 
 
     }
-    nav ul.hide{
-        display: block;
-
-    }
+   
 
 }
 /*End*/
