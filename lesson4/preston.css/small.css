@@ -47,6 +47,12 @@ nav ul.hide{
 /*End of BUTTON CSS*/
 
 /*---------------CSS Website*/
+.OuterDiv{
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 
 body {
 	font-size: 22px;
