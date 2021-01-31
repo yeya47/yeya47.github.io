@@ -29,6 +29,18 @@
 
     }
 
+    /*HTML CSS*/
+    h1 {
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 40px;
+          
+      }
+      
+      header img{
+        width: 250px;
+        height: auto;
+    }
+
 }
 
 /*End*/
