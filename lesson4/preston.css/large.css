@@ -13,8 +13,8 @@
 
         }
         nav ul li {
-            float: left;
-
+            display:inline-flex;
+            
         }
 
     nav ul li a{
