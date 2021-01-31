@@ -9,11 +9,16 @@ header
  {
 	background-color: #00A398;
 	display: flex;
-	flex-flow: column;
-	align-items: center;
 	justify-content: center;
-	padding: 10px;
+	align-items: center;
+	padding: 10px 10px;
 }
+.headings{
+	display: flex;
+}
+/*.logo{
+	float: left;
+}*/
 
 header,
 nav,
@@ -27,6 +32,12 @@ h1 {
   font-size: 26px;
 	
 }
+
+#content {
+	max-width: 960px;
+	margin: 0 auto;
+  }
+  
 h2 {
   font-size: 26px;
   font-family: 'Gentium Book Basic', serif;
@@ -44,6 +55,8 @@ nav {
 	box-shadow: 0 2px 15px gray;
 }
 nav ul {
+	align-items:center;
+	justify-content:center;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -53,9 +66,9 @@ nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 0.75rem;
+	padding: 0.95rem;
 	text-decoration: none;
-	font-size: 0.95rem;
+	font-size: 1.3rem;
 }
 nav a:hover {
 	background-color: #f09f2d;
@@ -78,13 +91,18 @@ footer {
   text-align: center;
   padding: 1.5rem;}
 
-header {
+/*header {
   align-items: center;
   display: flex;
   grid-template-columns: 110px auto;
   margin-bottom: 10px;
-}
+  justify-content: center;
+}*/
 
+header img{
+	width: 80px;
+	height: auto;
+}
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Menu Examples */
