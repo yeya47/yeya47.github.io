@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Hamburger</title>
+    <meta name="description" content="Preston Idaho Website Resposive Nav Assignment">
+    <link rel="shortcut icon" href="/lesson4/WeatherICon.ico">
+
+    <!--CSS:Style-->
+    <link href="preston.css/small.css" rel="StyleSheet">
+    <link href="preston.css/medium.css" rel="StyleSheet">
+    <link href="preston.css/large.css" rel="StyleSheet">
+    <!--APIS h2-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body >
+    <div class="OuterDiv">
+        <div class="header">
+            <header>
+    
+                <img src="images/iconLogo.png" alt="Weather IconLogo">
+                <section class="Hedding">
+                  <h1>"The Atmosphere State!"</h1>
+                  <h2>Protect the atmosphere, control the weather.</h2>
+         
+                </section>
+             </header>
+        </div>
+
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primeNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li ><a href="#">Gallery</a></li>
+                
+            </ul>
+        </nav>
+    <main>
+        
+        <h1>Preston Idaho</h1>
+        <div class="content">
+        <section>
+            <h2>Hero Image / Weather Sumary</h2>
+        </section>
+        </div>
+        <div class="content">
+        <section>
+            <h2>Five Day Forecast</h2>
+        </section>
+        </div>
+        <div class="content">
+        <section>
+            <h2>Article Title</h2>
+        </section>
+        </div>
+        <div class="content">
+        <section>
+            <h2>Contact Information</h2>
+        </section>
+        </div>
+        
+    </main>
+   
+    <footer>
+        &copy;<span id="year"></span>|Yessica Juarez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning Home</a><br>
+        Last modified: <span id="currentdate"></span>
+        <script src="js/fulldate.js"></script>
+        <script src="js/preston-4.js"></script>
+    </footer>
+</div>
+</body>
+</html>
