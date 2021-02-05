@@ -67,6 +67,15 @@
         width: 200px;
         height: auto;
     }
-
+  
+.articleimg{
+    width: 300px;
 }
+.map{
+    width: 250px;
+    float: right;
+    padding: 10px;
+  }
+}
+
 /*End*/
