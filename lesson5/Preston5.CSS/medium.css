@@ -76,6 +76,25 @@
     float: right;
     padding: 10px;
   }
+  
+  .HeroDiv {
+    max-width: 100%;
+ 
+    height: 350px;
+ 
+ } 
+ .HeroDiv{
+    position: relative;
+    align-items: center;
+    
+    
+  }
+  .HeroDiv img{
+    align-items: center;
+    width: 1000px;
+    height: 350px;
+
+} 
 }
 
 /*End*/
