@@ -159,7 +159,7 @@ header img{
   
 }
 .weatherStats{
-  position: absolute;
+  
   top: 50px;
   left: 50px;
   background-color:#00A398;
@@ -198,9 +198,9 @@ header img{
 
 .articleimg{
   width: 200px;
-  border-radius: 50%;
+  
   float: left;
-  shape-outside: ellipse();
+  
   padding: 10px;
 
 }
