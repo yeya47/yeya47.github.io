@@ -139,6 +139,14 @@ main article {
 	background-color: #02020B;
 }
 
+main figure.myphoto {
+  
+margin: 1px 1px;
+}
+main figure.myphoto img {
+  width: 100%;
+}
+
 footer {
 	flex: 0 1 100%;
 	height: 2rem;
