@@ -81,12 +81,15 @@ footer {
 	margin: 0 auto;
 }
 h1 {
+  text-align: center;
   font-family: 'Gentium Book Basic', serif;
   font-size: 34px;
 	
 }
 
 .content {
+  justify-content: center;
+	align-items: center;
     background-color:#f09f2d;
   font-size:16px;
   border:1px solid #84130B;
@@ -95,6 +98,8 @@ h1 {
 }
   
 h2 {
+
+  text-align: center;
   font-size: 26px;
   font-family: 'Merriweather', serif;
 	color: #02020B;
