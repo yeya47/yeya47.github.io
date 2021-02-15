@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Wind Chill</title>
+    <script>
+      /* Input: User will input a temperature in Fahrenheit and a wind speed in miles per hour
+       * Processing: A function will calculate the wind chill factor using the formula and inputs
+       * Output: The Wind Chill factor  
+       */
+    
+  function doInputOutput () {
+
+    let temp = parseInt(document.getElementById("temp").value);
+    let windSpeed = parseInt(document.getElementById("windSpeed").value);
+    
+    let chillFactor = windChill(temp, windSpeed);
+    document.getElementById("output").innerHTML = chillFactor;
+  }
+
+  function windChill(far, mph) {
+
+    let factor = Math.round((35.74+(0.6215*far)-(35.75*mph**0.16)+(0.4275*far*mph**0.16))*100)/100;
+    return factor;
+  }
+
+</script>
+</head>
+<body>
+
+Temperature: <input type="text" id="temp"><br>
+<br>
+Wind Speed: <input type="text" id="windSpeed"><br>
+<br>
+<button type="button" onClick="doInputOutput();">Wind Chill</button>
+<div id="output"></div>
+</body>
+</html>
