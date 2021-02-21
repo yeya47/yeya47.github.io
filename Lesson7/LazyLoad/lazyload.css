@@ -1,0 +1,23 @@
+body{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+
+}
+main{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    filter: blur(0em);
+    transition: filter 1s;
+    border: 1px solid burlywood;
+    padding: 2px;
+}
+img[data-src]{
+    filter: blur(0em);
+}
