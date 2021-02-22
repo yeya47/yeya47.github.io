@@ -14,10 +14,10 @@ main{
 
 img{
     filter: blur(0em);
-    transition: filter 1s;
+    transition: filter 2s;
     border: 1px solid burlywood;
     padding: 2px;
 }
 img[data-src]{
-    filter: blur(0em);
+    filter: blur(0.2em);
 }
