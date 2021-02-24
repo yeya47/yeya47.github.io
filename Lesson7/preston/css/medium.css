@@ -1,5 +1,5 @@
 /*35 em  or 560px media query CSS*/
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 47em){
     
     nav ul{
         justify-content: center;
@@ -97,7 +97,7 @@
 } 
 .Gallery{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    
     align-items: center;
     justify-items: center;
     grid-gap: 5px
