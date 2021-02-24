@@ -1,6 +1,6 @@
 
 /* 64em or 1028px media query CSS*/
-@media only screen and (min-width:64rem){
+@media only screen and (min-width:65rem){
     
     
     nav button{
@@ -129,11 +129,9 @@
           .Gallery{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr ;
-            align-items: center;
-            justify-items: center;
             grid-gap: 5px
         }
-    
+       
 
 }
 
