@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storm Center</title>
     <meta name="Description" content="This page contains a form for the Website">
+    <!--CSS-->
+    <link href="css/small.css" rel="Stylesheet">
+    <link href="css/medium.css" rel="Stylesheet">
+    <link href="css/large.css" rel="Stylesheet">
+
 
 </head>
 <body>
@@ -29,23 +34,38 @@
                 <li><a href="https://yeya47.github.io/Lesson6/preston6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li class="active"><a href="https://yeya47.github.io/Lesson7/preston/gallery.html">Gallery</a></li>
-                
+                <li class="active"></liclass><a href="#">Storm Center</a></li>
+                <li> <a href="https://yeya47.github.io/Lesson7/preston/gallery.html">Gallery</a></li>
             </ul>
          </nav>
          <main>
+             <h1>Storm Center</h1>
+             <form method="GET" action="Thank you">
+                 <fieldset>
+                     <legend>Perssonal Information</legend>
+                     <label>First Name*<input type="text" name="name" required></label></br>
+                     <label>Email:<input type="email" name="email" placeholder="address@domain.com" required></label></br>
+                     <label>Phone Number:<input type="tel" name="phone" placeholder="555-000-1234" required></label></br>
+                     <label>Zip Code:<input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
+                 </fieldset>
+                 <fieldset>
+                     <legend>Strom Report</legend>
+                     <label>Sortm Date<input type="date" name="theDate"></label><br>
+                 </fieldset>
+             </form>
 
          </main>
          <footer>
             &copy;<span id="year"></span>|Yessica Juarez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning Home</a><br>
             Last modified: <span id="currentdate"></span>
 
-            <script src="js/lazyloadgallery.js"></script>
             <script src="js/toggle.js"></script>
+           
         </footer>
-
-
     </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/webfont.js"></script>
+
+    
 </body>
 </html>
