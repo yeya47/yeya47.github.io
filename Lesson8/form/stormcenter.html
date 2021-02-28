@@ -10,6 +10,9 @@
     <link href="css/small.css" rel="Stylesheet">
     <link href="css/medium.css" rel="Stylesheet">
     <link href="css/large.css" rel="Stylesheet">
+    <!---Api's-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
 
 
 </head>
@@ -42,15 +45,27 @@
              <h1>Storm Center</h1>
              <form method="GET" action="Thank you">
                  <fieldset>
+
                      <legend>Perssonal Information</legend>
-                     <label>First Name*<input type="text" name="name" required></label></br>
-                     <label>Email:<input type="email" name="email" placeholder="address@domain.com" required></label></br>
-                     <label>Phone Number:<input type="tel" name="phone" placeholder="555-000-1234" required></label></br>
-                     <label>Zip Code:<input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
+                     <div class="formbox">
+                     <label>First Name:*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label></br>
+                    </div>
+                    <div class="formbox">
+                     <label>Email:*<input type="email" name="email" placeholder="address@domain.com" required></label></br>
+                    </div>
+                    <div class="formbox">
+                     <label>Phone Number:*<input type="tel" name="phone" placeholder="555-000-1234" required></label></br>
+                    </div>
+                    <div class="formbox">
+                     <label>Zip Code:*<input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
+                    </div>
                  </fieldset>
                  <fieldset>
                      <legend>Strom Report</legend>
+                     <div class="formbox">
                      <label>Sortm Date<input type="date" name="theDate"></label><br>
+                    </div>
+                    <div class="formbox">
                      <label>Storm Type:
                         <input name="strorm" list="stormlist"></label>
                     <datalist id="stormlist">
@@ -60,7 +75,9 @@
                         <option value="Thunder Storm"> 
                         <option value="Tornado">
                     </datalist>
+                </div>
                 </br>
+                <div class="formbox">
                     <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
@@ -77,8 +94,10 @@
                         <option value="8">
                         <option value="9">
                         <option value="10">
-                    </datalist> </br>
-                    
+                    </datalist>
+                 </div>
+                </br>
+                <div class="formbox">
                     <label>
                         <select name="browsers" id="selectbrowser" onchange="selectResponse()">
                             <option value="" disabled selected>Select a Region</option>
@@ -86,18 +105,24 @@
                             <option value="Soda Springs">Soda Springs</option>
                             <option value="Fish Haven">Fish Haven</option>   
                         </select>
-                    </label></br>
-                    <legend>Are you in danger?</legend>
-				<label><input type="radio" name="danger" value="yes" >Yes.</label>
-			
+                    </label>
+                </div>
+                </br>
+                   
+                <div class="formbox">
+				<label> Are you in danger?<input type="radio" name="danger" value="yes" >Yes.</label>
 				<label><input type="radio" name="danger" value="maybe"> Maybe.</label>
-			
-				<label><input type="radio" name="danger" value="no">No.</label></br>
+		        <label><input type="radio" name="danger" value="no">No.</label>
+                </div>
+                 </br>
+                <div class="formbox">
                 <label for="msg">Message:</label></br>
                 <textarea id="msg" name="user_message"></textarea></br>
-                
+                </div>
                  </fieldset>
-                 <input type="submit" value="Submit"><br>
+                 <div class="formbox">
+                 <input type="submit" class="submit" value="Submit"><br>
+               </div>
              </form>
 
          </main>

@@ -131,6 +131,17 @@
             grid-template-columns: 1fr 1fr 1fr ;
             grid-gap: 5px;
         }
+        /* Form CSS*/
+        .formbox{
+          flex-direction: row;
+        }
+        .formbox label{
+         flex-basis: 9rem;
+         flex-grow: 0;
+         flex-shrink: 0;
+        }
+        
+        
       
 }
 

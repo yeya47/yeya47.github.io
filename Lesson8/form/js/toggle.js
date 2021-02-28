@@ -42,7 +42,7 @@ let fulldate = dayName +", " + monthName + " " + d.getDate() + ", " + year;
 document.getElementById("currentdate").textContent = fulldate;
 
 //* Webfont//*
-WebFont.load({
+   WebFont.load({
     google: {
       families: ['Gentium Book Basic', 'Merriweather']
     }

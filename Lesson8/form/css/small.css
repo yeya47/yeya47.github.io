@@ -244,6 +244,37 @@ header img{
        
 
     }
+    /*Form CSS*/
+form fieldset{
+  margin: 5px;
+  border:4px solid #f09f2d;
+}
+legend{
+  font-family:'Gentium Book Basic', serif ;
+  font-size: 25px;
+}
+.submit{
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+
+}
+select, option, input, button{
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  color: #000;
+
+}
+label{
+  display: contents;
+}
+
+
+
+.formbox{
+  display: flex;
+  flex-direction: column;
+}
 
     
 
