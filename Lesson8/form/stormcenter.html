@@ -48,13 +48,13 @@
 
                      <legend>Perssonal Information</legend>
                      <div class="formbox">
-                     <label>First Name:*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label></br>
+                     <label>First Name:*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label>
                     </div>
                     <div class="formbox">
-                     <label>Email:*<input type="email" name="email" placeholder="address@domain.com" required></label></br>
+                     <label>Email:*<input type="email" name="email" placeholder="address@domain.com" required></label>
                     </div>
                     <div class="formbox">
-                     <label>Phone Number:*<input type="tel" name="phone" placeholder="555-000-1234" required></label></br>
+                     <label>Phone Number:*<input type="tel" name="phone" placeholder="555-000-1234" required></label>
                     </div>
                     <div class="formbox">
                      <label>Zip Code:*<input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
@@ -63,7 +63,7 @@
                  <fieldset>
                      <legend>Strom Report</legend>
                      <div class="formbox">
-                     <label>Sortm Date<input type="date" name="theDate"></label><br>
+                     <label>Sortm Date<input type="date" name="theDate"></label>
                     </div>
                     <div class="formbox">
                      <label>Storm Type:
@@ -76,7 +76,7 @@
                         <option value="Tornado">
                     </datalist>
                 </div>
-                </br>
+                
                 <div class="formbox">
                     <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -96,7 +96,7 @@
                         <option value="10">
                     </datalist>
                  </div>
-                </br>
+                
                 <div class="formbox">
                     <label>
                         <select name="browsers" id="selectbrowser" onchange="selectResponse()">
@@ -107,17 +107,17 @@
                         </select>
                     </label>
                 </div>
-                </br>
+                
                    
                 <div class="formbox">
 				<label> Are you in danger?<input type="radio" name="danger" value="yes" >Yes.</label>
 				<label><input type="radio" name="danger" value="maybe"> Maybe.</label>
 		        <label><input type="radio" name="danger" value="no">No.</label>
                 </div>
-                 </br>
+                
                 <div class="formbox">
                 <label for="msg">Message:</label></br>
-                <textarea id="msg" name="user_message"></textarea></br>
+                <textarea id="msg" name="user_message"></textarea>
                 </div>
                  </fieldset>
                  <div class="formbox">
