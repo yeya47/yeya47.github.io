@@ -1,0 +1,301 @@
+/*BUTTON CSS*/
+nav{
+    background-color:#00A398 ;
+    font-family: 'Gentium Book Basic', serif;
+}
+nav ul{
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav button{
+    margin: .2rem 2%;
+    background-color:#f09f2d ;
+    border: none;
+    font-size: 1.6rem;
+    color: #02020B;
+
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #02020B;
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+nav ul li.active{
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: #fff;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+nav ul.hide{
+    display: none;
+}
+nav {
+	background-color: #84130B;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	align-items:center;
+	justify-content:center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.95rem;
+	text-decoration: none;
+	font-size: 1.3rem;
+}
+nav a:hover {
+	background-color: #f09f2d;
+	color: #84130B;
+}
+/*End of BUTTON CSS*/
+
+/*---------------CSS Website*/
+.OuterDiv{
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+body {
+	font-size: 22px;
+	 font-family: 'Gentium Book Basic', serif;
+}
+
+/* phone or baseline views **************************/
+header
+ {
+	background-color: #00A398;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 10px;
+}
+.headings{
+	display: flex;
+}
+
+
+header,
+nav,
+main,
+footer {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 34px;
+	
+}
+
+.content {
+  justify-content: center;
+	align-items: center;
+    background-color:#f09f2d;
+  font-size:16px;
+  border:1px solid #84130B;
+  padding:5px 5px;
+  color:#02020B;
+}
+  
+h2 {
+
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Merriweather', serif;
+	color: #02020B;
+}
+
+p, h3 {
+  font-family: 'Merriweather', serif;
+  color: #02020B;
+}
+
+
+
+main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #02020B;
+}
+
+
+.hero img {
+  margin: 1px 1px;
+  width: 100%;
+}
+
+footer {
+	flex: 0 1 100%;
+	height: 2rem;
+  background-color:#00A398 ;
+  color: #231123;
+  text-align: center;
+  padding: 1.5rem;}
+
+
+header img{
+	width: 150px;
+	height: auto;
+}
+
+
+.hero img{
+   max-width: 100%;
+
+   height: 350px;
+
+} 
+
+
+.articleimg{
+  width: 200px;
+  
+  float: left;
+  
+  padding: 10px;
+
+}
+.map{
+  width: 150px;
+  float: right;
+  padding: 10px;
+}
+
+
+
+/*End of Webcss*/
+
+.cards section{
+  width: 700px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.cards h2, .cards h3, .cards p{
+text-align: center;
+}
+.cards h2{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.cards h3{
+  margin-top: 2px;
+  font-size: 14px;
+}
+.cards p{
+  margin: 3px;
+}
+
+.cards img{
+  width: 90%;
+  max-width: 400px;
+  margin: 10px;
+  box-shadow: 0 0 30px #333;
+  
+}
+.cards{
+
+  display: flex;
+  flex-direction: column;
+}
+.cards section{
+  border: .5px solid rgb(37, 54, 51);
+  background-color:  #71d1cb;}
+
+.cards section:nth-child(1){
+  order: 3;
+ 
+
+}
+.cardssection:nth-child(2){
+  order: 1;
+ 
+}
+.cards section:nth-child(3){
+  order: 2;
+ 
+
+}
+
+/*JSON
+.cards section{
+  border: .5px solid rgb(113, 167, 156);
+  background-color:  #71d1cb;
+  width: auto;
+  margin: 5px;
+  text-align: center;
+}
+.cards h2, .cards h3, .cards p{
+  text-align: center;
+  }
+/*.cards h1,  h2,  p{
+text-align: center;
+}
+.cards h1{
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.cards h2{
+  margin-top: 14px;
+  font-size: 1rem;
+}
+.cards p{
+  margin: 3px;
+}
+
+.cards img{
+
+  max-width: 300px;
+  height: 280px;
+  margin: 10px;
+  box-shadow: 0 0 30px #333;
+}
+.cards{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/*.cards section:nth-child(odd){
+ /* order: 3;
+  border: .5px solid rgb(113, 167, 156);
+}
+.cards section:nth-child(odd){
+  /*order: 1;
+  border: .5px solid rgb(113, 167, 156);
+
+}
+.cards section:nth-child(even){
+  /*order: 2;
+  border: .5px solid rgb(113, 167, 156);
+
+}*/
+
+

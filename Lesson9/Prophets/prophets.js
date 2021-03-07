@@ -28,8 +28,8 @@ fetch(requestURL)
      pimg.setAttribute('alt',`${prophet.name} ${prophet.lastname} - ${prophet.order}`);
 
      card.append(h2);
-     card.appendChild(birthdate)
-     card.appendChild(birthplace);;
+     card.appendChild(birthdate);
+     card.appendChild(birthplace);
      card.append(pimg);
      cards.append(card);
      });
