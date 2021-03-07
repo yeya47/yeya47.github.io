@@ -88,11 +88,11 @@ div.cards section:nth-child(2){
   border-bottom: none;
 
 }
-div.cards section:nth-child(3)h3,h2,p{
+div.cards section:nth-child(3) h3,h2,p{
   align-items: center;
-  
 
 }
+
 div.cards section{
   display: block;
   
