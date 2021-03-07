@@ -192,7 +192,8 @@ header img{
 /*End of Webcss*/
 
 .cards section{
-  width: 700px;
+  width: 90%;
+  height: 400px;
   margin: auto;
   margin-bottom: 20px;
   padding-bottom: 20px;

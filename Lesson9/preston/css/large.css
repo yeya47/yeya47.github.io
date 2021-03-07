@@ -108,5 +108,10 @@ div.cards section:nth-child(3) img{
 div.cards section div{
 margin-bottom: 20px;
 }
+.cards section{
+  
+  width: 90%;
+  height: 550px;
 
+}
 }
