@@ -56,7 +56,7 @@
     
 
       .map{
-          width: 250px;
+          width: 350px;
           float: right;
           padding: 10px;
         }
@@ -87,8 +87,9 @@ div.cards section:nth-child(2){
   border-bottom: none;
 
 }
-div.cards section:nth-child(3){
-  border-bottom: none;
+div.cards section:nth-child(3)h3,h2,p{
+  align-items: center;
+  
 
 }
 div.cards section{
@@ -96,20 +97,21 @@ div.cards section{
   
 }
 div.cards p{
-  margin: 3px;
+  margin: 2px;
 }
 div.cards section:nth-child(3) img{
   margin-right: auto;
+  margin-top: 10px;
   }
   div.cards section:nth-child(1) img,
   div.cards section:nth-child(2) img{
       margin-left: auto;
+      margin-top: 10px;
   }
 div.cards section div{
 margin-bottom: 20px;
 }
 .cards section{
-  
   width: 90%;
   height: 550px;
 

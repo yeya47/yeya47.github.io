@@ -181,6 +181,21 @@ header img{
   padding: 10px;
 
 }
+#info h1{
+  font-size: 30px;
+}
+#info h2{
+  font-size: 20px;
+}
+
+#info{
+  text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+
+max-width: 100%;
+}
+
 .map{
   width: 150px;
   float: right;
@@ -218,6 +233,7 @@ text-align: center;
 .cards img{
   width: 90%;
   max-width: 400px;
+  height: 220px;
   margin: 10px;
   box-shadow: 0 0 30px #333;
   
