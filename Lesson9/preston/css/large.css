@@ -59,7 +59,7 @@
           width: 350px;
           float: right;
           padding: 10px;
-          margin-top: -25px;
+              margin-top: -25px;
         }
       
         #article{
@@ -90,9 +90,7 @@ div.cards section:nth-child(2){
 }
 div.cards section:nth-child(3) h3,h2,p{
   align-items: center;
-
 }
-
 div.cards section{
   display: block;
   

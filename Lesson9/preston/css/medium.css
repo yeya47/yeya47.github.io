@@ -141,7 +141,7 @@
 .cards section:nth-child(3) p {
     display: grid;
     grid-column: 2/3;
-    margin-left: 200px;
+   
     
 }
 
