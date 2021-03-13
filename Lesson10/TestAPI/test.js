@@ -5,6 +5,6 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
   //  console.log(jsObject);
-  const temperature = document.querySelector('#current-temp');
-  current-temp.textContent = jsObject.main.temp;
+  const temperature = document.querySelector('#temperature');
+  temperature.textContent = jsObject.main.temp;
   });
