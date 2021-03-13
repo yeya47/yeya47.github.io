@@ -16,12 +16,12 @@ document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the 
 document.getElementById('icon').setAttribute('alt', desc);
   });*/
 
-  const apiURL= 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6b7db5f6c8ffac4df697298da2f5a480&units=imperial'
+  /*const apiURL= 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6b7db5f6c8ffac4df697298da2f5a480&units=imperial'
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
   console.log(jsObject);
-  //Get Temp located in JSON file inside the main
+  Get Temp located in JSON file inside the main
 
-  });
+  });/*
