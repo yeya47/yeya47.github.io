@@ -14,7 +14,7 @@ const desc = jsObject.weather[0].description;  // note how we reference the weat
 document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
 document.getElementById('icon').setAttribute('alt', desc);
-  });*//
+  });*/
 
   const apiURL= 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=6b7db5f6c8ffac4df697298da2f5a480&units=imperial'
 
