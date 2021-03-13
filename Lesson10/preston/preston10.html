@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston</title>
+    <meta name="description" content="Preston Idaho Website retrieves weather information from JSON file ">
+    <link rel="shortcut icon" href="/lesson4/WeatherICon.ico">
+
+    <!--CSS:Style-->
+    <link href="css/small.css" rel="StyleSheet">
+    <link href="css/medium.css" rel="StyleSheet">
+    <link href="css/large.css" rel="StyleSheet">
+    <!--APIS h2-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap" rel="stylesheet">
+    <!--<P> API's-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+      
+
+</head>
+<body >
+     
+   
+
+
+    <div class="OuterDiv">
+        
+         <button type = "button" onclick="displaybox();">"Push Me!"</button>  
+    <div id="output"></div>
+        <div class="header">
+            <header>
+    
+                <img src="images/logoICON.png" alt="Weather IconLogo">
+                <section class="Hedding">
+                  <h1>"The Atmosphere State!"</h1>
+                  <h2>Protect the atmosphere, control the weather.</h2>
+         
+                </section>
+             </header>
+        </div>
+
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primeNav" class="hide">
+                <li><a href="https://yeya47.github.io/Lesson9/preston/home.html">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="https://yeya47.github.io/Lesson8/form/stormcenter.html">Storm Center</a></li>
+                <li ><a href="https://yeya47.github.io/Lesson7/preston/gallery.html">Gallery</a></li>
+                
+            </ul>
+        </nav>
+    <main>
+        
+        <h1>Preston Idaho</h1>
+        <div class="inside">
+            <div class="content">
+           <div class="HeroDiv">
+          <figure class="myphoto">
+              <img src="images/hero.jpg" alt="Beautiful scenery." sizes="50vw"
+              srcset="images/small.jpg 350w,
+               images/medium.jpg 500w,
+                images/large.jpg 800w" >
+                  
+          </figure >   
+             <section class="weatherStats">
+                <h2> Today's Weather Summary</h2>
+                <p><b>Current Temperature: <span id="temperature"></span>&deg;F </b>  </p>
+                 <p><b>High: 75 &deg;F</b> </p>
+                 <p><b>Wind Chill: <span id="windChill"></span>&deg;F</b></p>
+                <p><b>Humidity: 20 %</b></p> 
+                <p><b>Wind Speed: 10 mph</b></p>
+             </section>
+        </div>
+            </div>
+        
+        <div class="content">
+        <section>
+            <h1>Five Day Forecast</h1>
+            <div class="Forecast"><!-- Class for all 5 forecast-->
+              <div class="days">
+
+               <h2>Monday</h2> 
+               <img src="images/sunnyWindy.png"  alt="forecasticon">
+               <h2>68°F</h2>
+              </div>
+
+               <div class="days">
+                   <h2>Tuesday</h2>
+                   <img src="images/cloudyWindy.png"  alt="forecasticon">
+               <h2>50°F</h2>
+               </div>
+
+               <div class="days">
+                <h2>Wednesday</h2>
+                <img src="images/cloudy.png"  alt="forecasticon">
+            <h2>50°F</h2>
+                </div>
+
+               <div class="days">
+                <h2>Thursday</h2>
+                <img src="images/sunny.png"  alt="forecasticon">
+            <h2>80°F</h2>
+               </div>
+               <div class="days">
+                <h2>Friday</h2>
+                <img src="images/sunny.png"  alt="forecasticon">
+            <h2>90°F</h2>
+               </div>
+            </div> 
+            
+            </section>
+        </div>
+       
+        <div class="content" id="article">
+        <section >
+            <h2>Article Title</h2> 
+            
+            <img class="articleimg" src="images/articlepicture.jpg" alt="bubble gum">
+      
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                elit. Ducimus, officiis vel earum repellat beatae, 
+                maiores magnam sunt blanditiis sequi laboriosam eum
+                 eligendi tempora, eaque facere id? Dicta labore repellat ex!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Molestias ducimus temporibus culpa est laudantium sequi 
+                 corrupti voluptate, adipisci suscipit quidem sint exercitationem
+                  fuga officia recusandae unde, dignissimos vitae repudiandae quos. 
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  At aspernatur ducimus numquam nisi aperiam nam accusantium 
+                  repudiandae sed magni pariatur reiciendis, laboriosam id similique
+                   fugit expedita sequi iure blanditiis doloribus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum 
+                excepturi qui atque aperiam labore ea natus impedit ipsum? Quasi impedi
+                t ipsa repellendus enim asperiores ad perferendis cumque deserunt quaerat
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab commodi
+                 illo corrupti nobis, architecto illum corporis debitis numquam rem, sequi 
+                 rerum sed nulla animi. Iste sint quidem minus soluta..</p>
+        
+                  
+        </section>
+        </div>
+        
+        <div class="content" id="info">
+        <section >
+             <img class="map" src="images/map.jpg" alt="Map displaying location">
+            
+            <h1>Contact Information</h1>
+            <h2>The Atmosphere State</h2>
+            <h3>&#127968; 1447 E 800 N, Preston, ID 83263</h3>
+            <h3>&#9743; 1800-000-0000</h3>
+            <h3>&#128231; contact.theatmosphre.com</h3>
+            <!--SOcialMedia-->
+            <div class="social">
+                <a href="https://www.instagram.com" target="_blank"
+                  ><img
+                    src="https://cdn.glitch.com/3439fb02-85d8-43eb-969a-4c6b2f888a7a%2Finstagram.png?v=1589667152903"
+                    alt="Instagram icon"
+                /></a>
+                <a href="https://facebook.com" target="_blank"
+                  ><img
+                    src="https://cdn.glitch.com/3439fb02-85d8-43eb-969a-4c6b2f888a7a%2Ffacebook.png?v=1589667145505"
+                    alt="Facebook icon"
+                /></a>
+                <a href="https://youtube.com" target="_blank"
+                  ><img
+                    src="https://cdn.glitch.com/3439fb02-85d8-43eb-969a-4c6b2f888a7a%2Fyoutube.png?v=1589667139508"
+                    alt="Youtube icon"
+                /></a>
+              </div>
+        </section>
+        </div>
+        </div>
+    </main>
+   
+    <footer>
+        &copy;<span id="year"></span>|Yessica Juarez| <a href="https://www.byui.edu/online">BYU-Idaho Online Learning Home</a><br>
+        Last modified: <span id="currentdate"></span>
+        <script src="js/funtion.js"></script>
+        <script src="js/preston-weather.js"></script>
+      
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfont.js"></script>
+</body>
+</html>
