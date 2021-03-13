@@ -67,11 +67,22 @@ function displaybox(){
 document.getElementById("output").innerHTML = alarm
 }
 //
-//Windchill
-var temp= 66;
-var wSpeed= 10;
-var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
 
-var windChill= Math.round(windChill);
-document.getElementById("windChill").innerHTML= windChill;
+
+//Windchill
+function windChill(){
+    let t= parseFloat(document.getElementById("temperature").innerHTML);
+    let s = parseFloat(document.getElementById('windspeed').innerHTML);
+    let f;
+    let chill;
+    let newf;
+    if(t <= 50 && s > 3){
+        f = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16));
+        chill= `${f.toFixed(2)}°F`;
+    }
+        else{
+         chill= "N/A";
+        }
+        document.getElementById('windChill').innerHTML = chill;
+}
 //End//
