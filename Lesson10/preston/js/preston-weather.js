@@ -4,7 +4,7 @@ const apiURL= 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-  //  console.log(jsObject);
+  console.log(jsObject);
   //Get Temp located in JSON file inside the main
   const temperature = document.querySelector('#temperature');
   temperature.textContent = jsObject.main.temp;
