@@ -24,4 +24,4 @@ fetch(apiURL)
   console.log(jsObject);
   Get Temp located in JSON file inside the main
 
-  });/*
+  });*/
