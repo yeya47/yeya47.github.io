@@ -11,7 +11,7 @@ fetch(apiURL2)
    // filter take array jsObject.list.filter 
    //feed filter condition ex: 'string.includes('condition1800'
    //loop forecast
-   const five = jsObject.list.filter((x) => x.dt_txt.includes ('18:00:00'));
+   const five = jsObject.list.filter((x) => x.dt_txt.includes('18:00:00'));
    console.log(five);
    five.forEach(x=>{
    let d = new Date(x.dt_txt);
