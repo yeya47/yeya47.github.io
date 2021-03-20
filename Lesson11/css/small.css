@@ -207,6 +207,16 @@ header img{
   color:#02020B;
 
 }
+.hero img{
+  max-width: 100%;
+
+  height: 350px;
+
+} 
+.hero img {
+ margin: 1px 1px;
+ width: 100%;
+}
 .days img{
   width: 150px;
 	height: auto;

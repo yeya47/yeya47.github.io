@@ -145,10 +145,7 @@ main article {
 }
 
 
-.hero img {
-  margin: 1px 1px;
-  width: 100%;
-}
+
 
 footer {
 	flex: 0 1 100%;
@@ -171,6 +168,10 @@ header img{
    height: 350px;
 
 } 
+.hero img {
+  margin: 1px 1px;
+  width: 100%;
+}
 
 
 .articleimg{
