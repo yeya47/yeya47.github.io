@@ -38,7 +38,7 @@ fetch(apiURL2)
    // filter take array jsObject.list.filter 
    //feed filter condition ex: 'string.includes('condition1800'
    //loop forecast
-   let day = 0;
+ /*let day = 0;
    const dayoW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
    const five = jsObject.list.filter((x) => x.dt_txt.includes('18:00:00'));
    console.log(five);
@@ -49,7 +49,23 @@ fetch(apiURL2)
    document.getElementById(`ftemperature${day+1}`).textContent = x.main.temp;
    let icon = x.weather[0].icon;
    document.getElementById(`icon${day+1}`).src =`https://openweathermap.org/img/wn/${icon}@2x.png`;
-   d++;
+   d++;*/
+   var i = 1;
+   jsObject.list.forEach(element => {
+       //console.log(element.dt_txt)
+       if (element.dt_txt.includes("18:00")) {
+           //console.log(element.dt_txt);
+           let day = 0;
+           let today = new Date();
+
+           const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+           const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
+
+           document.getElementById('dayoW' + i).innerHTML = weekdays[(today.getDay() + i) % 7];
+           document.getElementById('icon' + i).setAttribute('src', imagesrc);
+           document.getElementById('ftemperature' + i).innerHTML = Math.round(element.main.temp) + " &deg; F";
+           i++;
+       }
  });
 
 });
