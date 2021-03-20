@@ -45,7 +45,7 @@ document.getElementById("currentdate").textContent = fulldate;
 //
 //* Displays message box on fridays*//
 
-/*function displaybox(){
+function displaybox(){
     var now = new Date();
     var month = now.getMonth();
     var dayOfMonth = now.getDate();
@@ -66,13 +66,8 @@ document.getElementById("currentdate").textContent = fulldate;
     
 
 document.getElementById("output").innerHTML = alarm
-}*/
-let date = new Date();
-date.getDay()
-if(date.getDay==5){
-    document.querySelector(".OnFridays").getElementsByClassName.display="block"
-
 }
+
 //
 
 
