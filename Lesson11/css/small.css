@@ -247,3 +247,58 @@ max-width: 100%;
 /*End of Webcss*/
 
 
+.cards section{
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.cards h2, .cards h3, .cards p{
+text-align: center;
+}
+.cards h2{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.cards h3{
+  margin-top: 2px;
+  font-size: 14px;
+}
+.cards p{
+  margin: 3px;
+}
+
+.cards img{
+  width: 90%;
+  max-width: 400px;
+  height: 220px;
+  margin: 10px;
+  box-shadow: 0 0 30px #333;
+  
+}
+.cards{
+
+  display: flex;
+  flex-direction: column;
+}
+.cards section{
+  border: .5px solid rgb(37, 54, 51);
+  background-color:  #71d1cb;}
+
+.cards section:nth-child(1){
+  order: 3;
+ 
+
+}
+.cardssection:nth-child(2){
+  order: 1;
+ 
+}
+.cards section:nth-child(3){
+  order: 2;
+ 
+
+}

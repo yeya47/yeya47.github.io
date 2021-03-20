@@ -131,6 +131,51 @@
 
 
 
-}
+
 
 /*End*/
+/*Cards CSS*/
+.cards{
+  display: flex;
+  flex-direction: row;
+}
+/*.cards section:nth-child(3){
+  border-left: 3px solid #2019A2;
+  border-right: 3px solid #2019A2;
+}*/
+.cards img{
+  width: 300px;
+  height: 380px;
+}
+div.cards section:nth-child(2){
+  border-bottom: none;
+
+}
+div.cards section:nth-child(3) h3,h2,p{
+  align-items: center;
+}
+div.cards section{
+  display: block;
+  
+}
+div.cards p{
+  margin: 2px;
+}
+div.cards section:nth-child(3) img{
+  margin-right: auto;
+  margin-top: 10px;
+  }
+  div.cards section:nth-child(1) img,
+  div.cards section:nth-child(2) img{
+      margin-left: auto;
+      margin-top: 10px;
+  }
+div.cards section div{
+margin-bottom: 20px;
+}
+.cards section{
+  width: 90%;
+  height: 550px;
+
+}
+}

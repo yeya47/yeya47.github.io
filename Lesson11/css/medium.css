@@ -101,6 +101,74 @@
     display: block;
     flex-direction: column;
   }
-}
+
 
 /*End*/
+/*Cards css*/
+.cards section:nth-child(3){
+    flex-direction: row-reverse;
+}
+.cards section:nth-child(3) img{
+    display: grid;  
+    grid-column: 1/2;
+    margin-top: -200px;
+    height: 350px;
+}
+.cards section:nth-child(3)  h2,h3,p{
+    display: grid;  
+    grid-column: 2/3;
+}
+
+.cards section:nth-child(1) img,
+.cards section:nth-child(2) img{
+ display: grid;  
+ grid-column: 2/3;
+ height: 350px;
+ margin-top: -170px;
+ justify-content: center;
+ 
+}
+
+.cards section:nth-child(1) h2,h3,p,
+.cards section:nth-child(2) h2,h3,p{
+   
+    display: grid; 
+   grid-column: 1/2;
+  
+    
+}
+.cards section:nth-child(1) h2,
+.cards section:nth-child(2) h2{
+    font-size: 24px;
+}
+.cards section{
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+}
+.cards p{
+    margin-bottom: 20px;
+}
+
+
+.cards section:nth-child(3) p {
+    display: grid;
+    grid-column: 2/3;
+   
+    
+}
+
+
+.cards section:nth-child(3) h2 {
+    display: grid;
+    grid-column: 2/3;
+    font-size: 24px;
+}
+
+.cards section:nth-child(3) h3 {
+    display: grid;
+    grid-column: 2/3;
+}
+}
