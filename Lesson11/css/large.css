@@ -139,10 +139,7 @@
   display: flex;
   flex-direction: row;
 }
-/*.cards section:nth-child(3){
-  border-left: 3px solid #2019A2;
-  border-right: 3px solid #2019A2;
-}*/
+
 .cards img{
   width: 300px;
   height: 380px;
@@ -177,5 +174,11 @@ margin-bottom: 20px;
   width: 90%;
   height: 550px;
 
+}
+/*Gallery*/
+.Gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap: 5px;
 }
 }
