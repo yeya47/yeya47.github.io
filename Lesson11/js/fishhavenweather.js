@@ -53,44 +53,32 @@ fetch(apiURL2)
 
 
 /* Events*/
+/* Fish Haven API */
 /*Source*/
-const requestURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
-
-/* Fetch to obtain promise*/
+const requestURL ='https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(requestURL)
-.then(function(response){
-    return response.json();
+.then(function (response) {
+  return response.json();
 })
-.then(function(jsonObject) {
+.then(function (jsonObject) {
+  const towns = jsonObject['towns'];
+  const upcomingEvents = document.querySelector('.events')
+  towns.forEach(town=>{
+    if (town.name == 'Fish Haven'){
+      for(x=0; x <=towns[2].events.length; x++){
+        let card = document.createElement('section');
+        let events = document.createElement('h2');
+        let eventData = document.createElement('div');
 
-    const towns =jsonObject['towns'];
-    const cards = document.querySelector('.ucevents')
-
-    towns.forEach(town => {
-        if (town.name == 'Fish Haven'){
-        let card = document.createElement('section');   
-        let h2 = document.createElement('h2');
-        let events = document.createElement('h1');
-
-        
-        //Tempalte literals*//
-        events.textContent=
-        `Upcoming Events:
-        ${town.events}`
+        events.textContent= towns[2].events[x];
+        eventData.appendChild(events);
+        card.append(eventData);
+        upcomingEvents.append(card);
+      }
       
-
-
-        //*Card Append//
-        
-     card.append(h2);
-     card.appendChild(events);
- 
-    
-     cards.append(card);
-    }
+      }
     });
-
-    });
-
+  
+});
 
     

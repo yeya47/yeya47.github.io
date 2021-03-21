@@ -70,10 +70,10 @@ fetch(apiURL2)
 
 });
 
-/*Source*/
+/*Source
 const requestURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-/* Fetch to obtain promise*/
+/* Fetch to obtain promise
 fetch(requestURL)
 .then(function(response){
     return response.json();
@@ -90,7 +90,7 @@ fetch(requestURL)
         let events = document.createElement('h1');
 
         
-        //Tempalte literals*//
+        //Tempalte literals/
         events.textContent=`Upcoming Events: ${town.events}`
       
 
@@ -105,5 +105,119 @@ fetch(requestURL)
     }
     });
 
-    });
+    });*/
 
+
+/*event
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+//use fetch to obatin a promise
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    //console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const towns = jsonObject['towns'];
+//select output location
+    const townEvents =  document.querySelector('.Events')
+
+    towns.forEach(town => {
+        if (town.name == 'Soda Springs'){
+        for(i = 0; i<= towns[2].events.length; i++){
+    let card = document.createElement('section');
+      let events = document.createElement('p');
+      let townDataE = document.createElement('div');
+      //use template literals
+      
+      events.textContent = towns[2].events[i];
+      
+      
+      
+      townDataE.appendChild(events);
+      card.append(townDataE);
+      townEvents.append(card); 
+        }
+    }
+    
+  });
+ 
+});*/
+/* Fish Haven API 
+const requestURL ='https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(requestURL)
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+  const towns = jsonObject['towns'];
+  const upcomingEvents = document.querySelector('.events')
+  towns.forEach(town=>{
+    if (town.name == 'Fish Haven'){
+      for(x=0; x <=towns[2].events.length; x++){
+        let card = document.createElement('section');
+        let events = document.createElement('h2');
+        let eventData = document.createElement('div');
+
+        events.textContent= towns[2].events[x];
+        eventData.appendChild(events);
+        card.append(eventData);
+        upcomingEvents.append(card);
+      }
+      
+      }
+    });
+  
+});*/
+
+/* Soda Springs Api
+const requestURL ='https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(requestURL)
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+  const towns = jsonObject['towns'];
+  const upcomingEvents = document.querySelector('.events')
+  towns.forEach(town=>{
+    if (town.name == 'Soda Springs'){
+      for(x=0; x <=towns[0].events.length; x++){
+        let card = document.createElement('section');
+        let events = document.createElement('h2');
+        let eventData = document.createElement('div');
+
+        events.textContent= towns[0].events[x];
+        eventData.appendChild(events);
+        card.append(eventData);
+        upcomingEvents.append(card);
+      }
+      
+      }
+    });
+  
+});*/
+/* Preston Api*/
+const requestURL ='https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(requestURL)
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+  const towns = jsonObject['towns'];
+  const upcomingEvents = document.querySelector('.events')
+  towns.forEach(town=>{
+    if (town.name == 'Preston'){
+      for(x=0; x <=towns[6].events.length; x++){
+        let card = document.createElement('section');
+        let events = document.createElement('h2');
+        let eventData = document.createElement('div');
+
+        events.textContent= towns[6].events[x];
+        eventData.appendChild(events);
+        card.append(eventData);
+        upcomingEvents.append(card);
+      }
+      
+      }
+    });
+  
+});
