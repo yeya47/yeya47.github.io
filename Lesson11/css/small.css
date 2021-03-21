@@ -169,14 +169,11 @@ header img{
   position: relative;
   align-items: center;
   
-  
 }
-.ucevents p{
+
   
-  text-align: center;
-}
+ 
 .weatherStats{
-  
   top: 50px;
   left: 50px;
   background-color:#00A398;
@@ -241,8 +238,8 @@ header img{
 
 #info{
   text-align: center;
-margin-left: 20px;
-margin-right: 20px;
+/*margin-left: 20px;
+margin-right: 20px;*/
 
 max-width: 100%;
 }
@@ -256,7 +253,7 @@ max-width: 100%;
 
 /*End of Webcss*/
 
-
+/* Town Card*/
 .cards section{
   width: 90%;
   height: 400px;
