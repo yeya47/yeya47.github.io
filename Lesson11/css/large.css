@@ -47,7 +47,7 @@
     }
     .weatherStats{
         position: absolute;
-        top: 15px;
+        top: 10px;
         left: 50px;
         background-color:#00A398;
         border: 1px solid black;
