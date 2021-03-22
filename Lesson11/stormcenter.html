@@ -43,32 +43,32 @@
          </nav>
          <main>
              <h1>Storm Center</h1>
+             <div class="content">
              <form method="GET" action="thanks.html">
                  <fieldset>
 
                      <legend>Perssonal Information</legend>
                      <div class="formbox">
-                     <label for="name">Full Name:*</label>
-                     <input type="text" name="name" pattern="[A-Za-z]{5}" required>
+                     <label for="name">Full Name:*</label> <input type="text" name="name" pattern="[A-Za-z]{5}" required>
                     </div>
                     <div class="formbox">
-                     <label>Email:*<input type="email" name="email" placeholder="address@domain.com" required></label>
+                     <label>Email:*</label><input type="email" name="email" placeholder="address@domain.com" required>
                     </div>
                     <div class="formbox">
-                     <label>Phone Number:*<input type="tel" name="phone" placeholder="555-000-1234" required></label>
+                     <label>Phone Number:*</label><input type="tel" name="phone" placeholder="555-000-1234" required>
                     </div>
                     <div class="formbox">
-                     <label>Zip Code:*<input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required></label>
+                     <label>Zip Code:*</label><input type="text" name="zip" pattern="(\d{5}([\-]\d{4})?)" required>
                     </div>
                  </fieldset>
                  <fieldset>
                      <legend>Strom Report</legend>
                      <div class="formbox">
-                     <label>Sortm Date<input type="date" name="theDate"></label>
+                     <label>Sortm Date:</label><input type="date" name="theDate">
                     </div>
                     <div class="formbox">
-                     <label>Storm Type:
-                        <input name="strorm" list="stormlist"></label>
+                     <label>Storm Type:</label>
+                        <input name="strorm" list="stormlist">
                     <datalist id="stormlist">
                         <option value="Flash FLood">
                         <option value="Hail">
@@ -79,10 +79,10 @@
                 </div>
                 
                 <div class="formbox">
-                    <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                    <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
-                    </label>
+                    
                     <datalist id="tickmarks">
                         <option value="0">
                         <option value="1">
@@ -99,19 +99,20 @@
                  </div>
                 
                 <div class="formbox">
-                    <label>
+                    <label>Storm Region:</label>
                         <select name="browsers" id="selectbrowser" onchange="selectResponse()">
                             <option value="" disabled selected>Select a Region</option>
                             <option value="Preston">Preston</option>
                             <option value="Soda Springs">Soda Springs</option>
                             <option value="Fish Haven">Fish Haven</option>   
                         </select>
-                    </label>
+                   
                 </div>
                 
                    
                 <div class="formbox">
-				<label> Are you in danger?<input type="radio" name="danger" value="yes" >Yes.</label>
+				<label> Are you in danger?</label>
+                <label><input type="radio" name="danger" value="yes" >Yes.</label>
 				<label><input type="radio" name="danger" value="maybe"> Maybe.</label>
 		        <label><input type="radio" name="danger" value="no">No.</label>
                 </div>
@@ -125,6 +126,7 @@
                     <input type="submit" name="report" value="Submit Report" >
                </div>
              </form>
+            </div>
 
          </main>
          <footer>
