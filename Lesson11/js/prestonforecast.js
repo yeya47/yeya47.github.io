@@ -7,13 +7,13 @@ fetch(apiURL)
   //console.log(jsObject);
   //Get Temp located in JSON file inside the main
   const temperature = document.querySelector('#temperature');
-  temperature.textContent = jsObject.main.temp;
+  temperature.textContent = jsObject.main.temp +'°F';
   const maxTemp = document.querySelector('#maxtemp');
-  maxTemp.textContent = jsObject.main.temp_max;
+  maxTemp.textContent = jsObject.main.temp_max + '°F';
   const windSpeed = document.querySelector('#windspeed');
-  windSpeed.textContent = jsObject.wind.speed;
+  windSpeed.textContent = jsObject.wind.speed +'mph';
   const humidityprcnt = document.querySelector('#humidity');
-  humidityprcnt.textContent = jsObject.main.humidity;
+  humidityprcnt.textContent = jsObject.main.humidity +'%' ;
   windChill();
   //Get image
   /* const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`; // note the concatenation
