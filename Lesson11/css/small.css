@@ -320,13 +320,18 @@ text-align: center;
   align-items: center;
   justify-items: center;
 }
-
+.Gallery p{
+  text-align: center;
+  font-size: 16px;
+  
+}
 .Gallery img{
   
       filter: blur(0em);
       transition: filter 2s;
       border: 1px solid burlywood;
       padding: 2px;
+    
   }
   img[data-src]{
       filter: blur(0.2em);
