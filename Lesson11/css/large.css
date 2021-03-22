@@ -45,18 +45,10 @@
        position: relative;
      
     }
-    .weatherStats{
-        position: absolute;
-        top: 10px;
-        left: 50px;
-        background-color:#00A398;
-        border: 1px solid black;
-        padding: .5rem;
-        box-shadow: darkgray;
-        font-size: 16px;
+ 
         
 
-    }
+    
     .weatherStats p{
       text-align: center;
       font-size: 14px;
@@ -87,7 +79,7 @@
         background-color:#00A398;
         border: 1px solid black;
         padding: .5rem;
-        box-shadow: darkgray;
+        box-shadow: rgb(48, 47, 47);
         font-size: 16px;
         
       
