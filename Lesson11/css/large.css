@@ -47,7 +47,7 @@
     }
     .weatherStats{
         position: absolute;
-        top: 50px;
+        top: 25px;
         left: 50px;
         background-color:#00A398;
         border: 1px solid black;
@@ -57,6 +57,17 @@
         
 
     }
+    .weatherStats p{
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: .75px;
+      
+    }
+    .weatherStats h2{
+      font-size: 20px;
+      margin: 1px;
+    }
+
     .HeroDiv img{
         align-items: center;
         width: 1000px;
