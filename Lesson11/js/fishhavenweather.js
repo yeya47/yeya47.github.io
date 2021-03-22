@@ -13,7 +13,7 @@ fetch(apiURL)
   const windSpeed = document.querySelector('#windspeed');
   windSpeed.textContent = jsObject.wind.speed;
   const humidityprcnt = document.querySelector('#humidity');
-  humidityprcnt.textContent = jsObject.main.humidity;
+  humidityprcnt.textContent = jsObject.main.humidity +'%' ;
   windChill();
   //Get image
   /* const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`; // note the concatenation

@@ -172,7 +172,9 @@ header img{
 }
 
   
- 
+.weatherStats p {
+  text-align: center;
+}
 .weatherStats{
   top: 10px;
   left: 50px;
