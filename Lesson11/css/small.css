@@ -311,6 +311,10 @@ text-align: center;
 }
 /*GAllery*/
 .Gallery{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
