@@ -69,6 +69,7 @@
     }
   
 .articleimg{
+    height: auto;
     width: 300px;
 }
 .map{

@@ -225,6 +225,7 @@ header img{
   text-align: center;
 }
 .articleimg{
+  height: fit-content;
   width: 200px;
   
   float: left;
