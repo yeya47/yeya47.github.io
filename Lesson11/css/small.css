@@ -221,6 +221,9 @@ header img{
 
 }
 
+#article{
+  text-align: center;
+}
 .articleimg{
   width: 200px;
   
