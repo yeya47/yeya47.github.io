@@ -1,6 +1,6 @@
 /*BUTTON CSS*/
 nav{
-    background-color:#00A398 ;
+    background-color:#f09f2d ;
     font-family: 'Gentium Book Basic', serif;
 }
 nav ul{
@@ -28,10 +28,10 @@ nav ul li a {
 
 }
 nav ul li a:hover{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #f09f2d;
 }
 nav ul li.active{
-    background-color: rgba(0, 0, 0, 0.2); 
+    background-color:#f09f2d; 
     color: #fff;
 }
 
