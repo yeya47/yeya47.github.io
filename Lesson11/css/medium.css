@@ -89,10 +89,6 @@
 .weatherStats{
     text-align: center;
 }
-.formbox label{
-    display: block;
-    flex-direction: column;
-  }
 
 
 /*End*/
