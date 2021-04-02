@@ -1,0 +1,97 @@
+footer, header{
+    background-color: #8cd9e3;
+    color: black;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 10px;
+}
+header img {
+    height: 200px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+   
+}
+/*nav*/
+
+nav {
+	background-color: #84130B;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	align-items:center;
+	justify-content:center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.95rem;
+	text-decoration: none;
+	font-size: 1.3rem;
+}
+nav a:hover {
+	background-color: #f09f2d;
+	color: #84130B;
+}
+/*Nav-Toggle*/
+nav{
+    background-color:#f09f2d ;
+    font-family: 'Gentium Book Basic', serif;
+}
+nav ul{
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav button{
+    margin: .2rem 2%;
+    background-color:#f09f2d ;
+    border: none;
+    font-size: 1.6rem;
+    color: #02020B;
+
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #02020B;
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
+nav ul li a:hover{
+    background-color: #f09f2d;
+}
+nav ul li.active{
+    background-color:#f09f2d; 
+    color: #fff;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+nav ul.hide{
+    display: none;
+}
+/*hero*/
+.hero img{
+height: 300px;
+max-width: 100%;
+margin: 1px 1px;
+}
