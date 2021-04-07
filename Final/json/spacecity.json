@@ -1,0 +1,80 @@
+{
+    "towns": [
+      {
+        "name": "Frank's Pizza",
+        "photo": "pizza.jpg",
+        "phone": "Phone: (713) 225-5656",
+        "address": "Address: 417 Travis St, Houston, TX 77002",
+        "website":"https://www.frankspizza.com/",
+        "events": [
+          "april 29: Mega Pizza Challenge",
+          "October 15-16: Pizzafest"
+        ]
+      },
+      {
+        "name": "Prestige Auto & Metal Recycling",
+        "photo": "recycle.jpg",
+        "phone": "Phone: (832) 770-9953",
+        "address": "Address: 7615 E Mt Houston Rd ste B, Houston, TX 77050",
+        "website":"https://prestigeautoandmetalrecycling.com/",
+        "events": [
+          "December 23 - January 3: Closed for the holidays",
+          "April 22: Earth Day"
+        ]
+      },
+      {
+        "name": "Children's Museum of Houston",
+        "photo": "museum.jpg",
+        "phone": "Phone: (713) 522-1138",
+        "address": "Address: 1500 Binz St, Houston, TX 77004",
+        "website":"https://www.cmhouston.org/",
+        "events": [
+          "August 1: School Supplies Drive"
+        ]
+      },
+      {
+        "name": "Chevron Corporation",
+        "photo": "cheveron.jpg",
+        "phone": "Phone: (713) 432-6400",
+        "address": "Address: 1111 Bagby St, Houston, TX 77002",
+        "website":"https://www.chevron.com/",
+        "events": [
+          "December 1 - 26: Christmas in the Heart"
+        ]
+      },
+      {
+        "name": "Texas Real Estate & Co.",
+        "photo": "barton.jpg",
+        "phone": "Phone: (713) 303-3738",
+        "address": "Address: 1607 Houston Ave, Houston, TX 77007",
+        "website":"https://www.txreco.com/",
+        "events": [
+          "February 10-12: Free Real Estate Seminar"
+        ]
+      },
+      {
+        "name": "Studio 713 - Recording Studios",
+        "photo": "music.jpg",
+        "phone": "Phone: (713) 640-5428",
+        "address": "Address: 849 Richey St, Houston, TX 77002",
+        "website":"https://713mediagroup.com/",
+        "events": [
+          "July 4: Talent Show"
+        ]
+      },
+      {
+        "name": "Huynh Restaurant",
+        "photo": "food.jpg",
+        "phone": "Phone: (713) 224-8964",
+        "address": "Address: 912 St Emanuel St, Houston, TX 77003",
+        "website":"http://huynhrestauranthouston.com/"
+      },
+      {
+        "name": "EMG Center of Houston",
+        "photo": "clinic.jpg",
+        "phone": "Phone: (713) 622-7744",
+        "address": "Address: 4151 Southwest Fwy #410, Houston, TX 77027",
+        "website":"https://www.emgctrhouston.com/"
+      }
+    ]
+  }

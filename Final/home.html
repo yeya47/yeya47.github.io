@@ -11,10 +11,13 @@
     <link href="css/large.css" rel="StyleSheet">
 </head>
 <body>
+    <div class="outerdiv">
     <header>
         <img src="images/logo.png" alt="Houston City IconLogo">
+        <section>
         <h1>Space City Chamber of Commerce</h1>
         <h2>Let us help you, take your business sky high!</h2>
+    </section>
     </header>
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
@@ -29,8 +32,38 @@
 
     <main>
         <div class="hero">
+            <figure class="photo">
             <img src="images/cityhero.jpg" alt="The City Houston">
-        </div>     
+      </figure>
+        <section class="weatherStats">
+            <h2> Today's Weather</h2>
+            <p>Current Temperature:<span id="temperature"></span></p>
+             <p>High Temperature:<span id="maxtemp"></span></p>
+             <p>Wind Chill: <span id="windChill"></span> </p>
+            <p>Humidity:<span id="humidity"></span> </p> 
+            <p>Wind Speed:<span id="windspeed"></span> </p>
+         </section>  
+        </div>  
+         <h1>3 Day Forecast</h1>
+         <div class="days">
+
+            <h2><span id="dayoW1"></span></h2> 
+            <img id="icon1" src="images/cloudy.png"  alt="forecasticon">
+            <h2><span id="ftemperature1"></span>&deg;F</h2>
+           </div>
+
+           <div class="days">
+                <h2><span id="dayoW2"></span></h2>
+                <img id="icon2" src="images/cloudy.png"  alt="forecasticon">
+                <h2><span id="ftemperature2"></span>&deg;F</h2>
+            </div>
+
+            <div class="days">
+             <h2><span id="dayoW3"></span></h2>
+             <img id="icon3" src="images/cloudy.png"  alt="forecasticon">
+             <h2><span id="ftemperature3"></span>&deg;F</h2>
+             </div>
+
         <section class="purpose" >
             <h2>Welcome to Space City</h2> 
                 <p>Here at Space City, We value you and your business, we beielve that as business owners 
@@ -39,6 +72,7 @@
                 Gas and power, Healthcare, technology to the culinary industry. As one 
                 of the largest cities we make a huge impact to the economy of our country. </p>          
         </section>
+        <div class="cards"></div>
 
 
 
@@ -48,8 +82,9 @@
         &copy;<span id="year"></span>|Yessica Juarez|<br>
         Last modified: <span id="currentdate"></span>
         <script src="js/function.js"></script>
+        <script src="js/houstonweather.js"></script>
 
     </footer>
-    
+    </div>
 </body>
 </html>
