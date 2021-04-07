@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space City </title>
+    <meta name="description" content="This is Space City Chamber of Commerce informational website .">
+    <link href="css/small.css" rel="StyleSheet">
+    <link href="css/medium.css" rel="StyleSheet">
+    <link href="css/large.css" rel="StyleSheet">
+</head>
+<body>
+    <div class="outerdiv">
+    <header>
+        <img src="images/logo.png" alt="Houston City IconLogo">
+        <section>
+        <h1>Space City Chamber of Commerce</h1>
+        <h2>Let us help you, take your business sky high!</h2>
+    </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primeNav" class="hide">
+            <li class="active" ><a href="#">Home</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Members</a></li>
+        
+            
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <figure class="photo">
+            <img src="images/cityhero.jpg" alt="The City Houston">
+      </figure>
+      <div class="content" id="report">
+        <form method="GET" action="thanks.html">
+            <fieldset>
+
+                <legend>Perssonal Information</legend>
+                <div class="formbox">
+                <label>First Name:*</label> <input type="text" name="fname"  required>
+               </div>
+               <div class="formbox">
+                <label>Last Name:*</label> <input type="text" name="lname"  required>
+               </div>
+               <div class="formbox">
+                <label>Tittle:</label> <input type="text" name="tittle">
+               </div>
+               <div class="formbox">
+                <label>Email:*</label><input type="email" name="email" placeholder="address@domain.com" required>
+               </div>
+               <div class="formbox">
+                <label>Phone Number:*</label><input type="tel" name="phone" placeholder="555-000-1234" required>
+               </div>
+               <div class="formbox">
+                <label>Business Name:*</label> <input type="text" name="bname"  required>
+               </div>
+               <div class="formbox">
+                <label>Business Website:*</label> <input type="text" name="website"  placeholder="website.com" required>
+               </div>
+               <div class="formbox">
+                <label for="msg">Business Description:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div class="formbox">
+                    <label> Are you in danger?</label>
+                    <label><input type="radio" name="danger" value="yes" > Non-profit ($100)</label>
+                    <label><input type="radio" name="danger" value="maybe"> Bronze ($200)</label>
+                    <label><input type="radio" name="danger" value="no">Silver ($400)</label>
+                    <label><input type="radio" name="danger" value="no">Gold ($1000)</label>
+                    </div>
+            </fieldset>
+            <div class="formbox">
+                <input type="submit" name="report" value= "Submit Report" id="subtn">
+           </div>
+            </form>
+
+
+    </main>
+    <footer>
+        &copy;<span id="year"></span>|Yessica Juarez|<br>
+        Last modified: <span id="currentdate"></span>
+        <script src="js/function.js"></script>
+        <script src="js/houstonweather.js"></script>
+        <script src="js/directoy.js"></script>
+
+    </footer>
+    </div>
+</body>
+</html>
