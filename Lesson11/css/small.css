@@ -1,3 +1,4 @@
+
 /*BUTTON CSS*/
 nav{
     background-color:#f09f2d ;
@@ -63,10 +64,10 @@ body {
 header
  {
 	background-color: #00A398;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
 }
 .headings{
 	display: flex;

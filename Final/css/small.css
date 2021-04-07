@@ -1,3 +1,10 @@
+.outerdiv {
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 footer, header{
     background-color: #8cd9e3;
     color: black;
@@ -6,11 +13,24 @@ footer, header{
 	align-items: center;
 	padding: 10px 10px;
 }
+header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+
+}
 header img {
     height: 200px;
     width: 300px;
 }
+h1{
+    
+    text-align: center;
+    font-size: 40px;
 
+}
 h2 {
     text-align: center;
     font-size: 26px;
@@ -91,7 +111,7 @@ nav ul.hide{
 }
 /*hero*/
 .hero img{
-height: 300px;
-max-width: 100%;
+height: 450px;
+width: 100%;
 margin: 1px 1px;
 }
