@@ -126,7 +126,7 @@
 }
 .acbutton{
     display: grid;
-    grid-column: 4/4;
+    grid-column: 3/4;
     width: 250px;
 }
 
