@@ -211,6 +211,7 @@ margin: 1px 1px;
 /*Cards*/
 .cards{
     display: flex;
+    flex-direction: column;
 }
 .cards section{
     color: #02020B;
