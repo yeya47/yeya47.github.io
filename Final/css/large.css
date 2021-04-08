@@ -93,6 +93,13 @@
     width: 230px;
     height: auto;
 }
+.directory section{
+    text-align: center;
+    border: solid 1px;
+    width: 300px;
+    margin: 2px;
+    padding: 2px;
+}
 .directory {
     display: grid;
     grid-template-columns: 1fr  1fr 1fr;
