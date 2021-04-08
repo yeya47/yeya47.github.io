@@ -96,6 +96,11 @@
     display: grid;
     grid-template-columns: 1fr  1fr 1fr;
 }
+.directory img{
+    margin: 5px;
+    width: 250px;
+    height: auto;
+}
 #why{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
