@@ -84,20 +84,9 @@
     text-align: center;
     border: solid 1px;
     width: 300px;
+    height: 535px;
     margin: 2px;
     padding: 2px;
-}
-.cards h2{
-    margin: 15px;
-}
-.cards h3, p{
-    margin: 10px;
-}
-
-.cards img{
-    margin: 5px;
-    width: 230px;
-    height: auto;
 }
 .directory section{
     text-align: center;
@@ -126,6 +115,7 @@
 .acbutton{
     display: grid;
     grid-column: 4/4;
+    width: 250px;
 }
 
 

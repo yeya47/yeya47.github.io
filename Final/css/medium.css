@@ -33,7 +33,6 @@
     .acbutton{
     
         display:flex;
-        margin-left: 200px;
         justify-content: center;
         align-items: center;
     }
