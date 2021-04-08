@@ -32,12 +32,11 @@ fetch(requestURL)
 
 
         //*Card Append//
-        
+     card.append(pimg)   
      card.append(h2);
      card.appendChild(phone)
      card.appendChild(address);
      card.appendChild(website);
-     card.append(pimg)
      cards.append(card);
     }
     });
