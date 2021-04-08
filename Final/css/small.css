@@ -23,7 +23,6 @@ body{
 footer, header{
     background-color: #1c4e80;
     color: #000;
-    display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 10px 10px;
@@ -256,5 +255,5 @@ margin: 1px 1px;
     text-align: center;
     justify-content: center;
     border: solid 1px;
-    margin-left: 230px;
+
 }
