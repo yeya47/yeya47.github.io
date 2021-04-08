@@ -4,6 +4,12 @@
     align-items: center;
     margin: auto;
 }
+header section{
+    margin: 25px;
+}
+header h1{
+    margin: 10px;
+}
 body{
     background-color: #f1f1f1;
 }
@@ -37,19 +43,19 @@ header img {
 h1{
     font-family:'Nanum Myeongjo', serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
 
 }
 h2 {font-family: 'Nanum Myeongjo', serif;
     text-align: center;
-    font-size: 26px;
+    font-size: 30px;
     margin-top: 10px;
    
 }
 p{
     font-family: 'Crimson Text', serif; 
     text-align: center;
-    font-size: 20px;
+    font-size: 26px;
     
 }
 /*nav*/
