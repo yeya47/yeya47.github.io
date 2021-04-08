@@ -131,6 +131,11 @@ nav ul li.active{
 nav ul.hide{
     display: none;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 /*hero*/
 .hero img{
 height: 450px;
@@ -174,6 +179,35 @@ margin: 1px 1px;
     margin: 1px;
 
 }
+/*Form*/
+.formbox label{
+    font-size: 20px;
+    display: block;
+    flex-direction: column;
+  }
+  #report{
+    align-items: center;
+    display: flex;
+  }
+  legend{
+    font-size: 30px;
+  }
+  .formbox input{
+    margin-bottom: 20px;
+  }
+  #subtn{
+    font-family: 'Gentium Book Basic', serif;
+    justify-content: center;
+      align-items: center;
+    font-size: 25px;
+    margin: 20px 50px 20px 50px;
+    background-color:#EA6A47 ;
+    color: #fff;
+    border: none; 
+   border-radius: 4px;
+   cursor: pointer; 
+  
+  }
 /*Cards*/
 .cards{
     display: flex;
@@ -193,4 +227,12 @@ margin: 1px 1px;
     width: 300px;
     margin: 2px;
     padding: 2px;
+}
+.details {
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    border: solid 1px;
+    margin-left: 230px;
 }
