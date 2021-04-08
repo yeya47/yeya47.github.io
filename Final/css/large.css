@@ -68,6 +68,7 @@
 /*Cards*/
 .cards{
     display: flex;
+    justify-content: center;
 }
 .cards section{
     text-align: center;
