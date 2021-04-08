@@ -45,7 +45,37 @@
   .weatherStats h2{
       font-size: 25px;
   }
+  /*3dayCast*/
+.tdcast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+
+.days{
+    margin: 5px 5px;
+    background-color:#FBFFEB  ;
+    border: clear;
+    text-align: center;
+    width: 150px;
+    height: 180px;
+}
+.days h2{
+    margin: 1px;
+
+}
+/*Cards*/
+.cards{
+    display: flex;
+}
+.cards section{
+    text-align: center;
+    border: solid 1px;
+    width: 300px;
+    margin: 2px;
+    padding: 2px;
+}
 
 
 }

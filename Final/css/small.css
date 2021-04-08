@@ -4,10 +4,16 @@
     align-items: center;
     margin: auto;
 }
+body{
+    background-color: #f1f1f1;
+}
+.content{
+    background: #A5D8DD;
+}
 
 footer, header{
-    background-color: #8cd9e3;
-    color: black;
+    background-color: #1c4e80;
+    color: #000;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -60,12 +66,12 @@ nav ul li a {
 	font-size: 1.3rem;
 }
 nav a:hover {
-	background-color: #f09f2d;
-	color: #84130B;
+	background-color: #EA6A47;
+	color: #1c4e80;
 }
 /*Nav-Toggle*/
 nav{
-    background-color:#f09f2d ;
+    background-color:#7E909A ;
     font-family: 'Gentium Book Basic', serif;
 }
 nav ul{
@@ -78,7 +84,7 @@ nav ul{
 
 nav button{
     margin: .2rem 2%;
-    background-color:#f09f2d ;
+    background-color:#EA6A47 ;
     border: none;
     font-size: 1.6rem;
     color: #02020B;
@@ -93,10 +99,10 @@ nav ul li a {
 
 }
 nav ul li a:hover{
-    background-color: #f09f2d;
+    background-color: #EA6A47;
 }
 nav ul li.active{
-    background-color:#f09f2d; 
+    background-color:#A5D8DD; 
     color: #fff;
 }
 
@@ -123,7 +129,7 @@ margin: 1px 1px;
    width: 300px;
     border: none; 
    border-radius: 4px;
-   background: #9a1e26;
+   background: #EA6A47;
     color: #fff; 
     text-transform: uppercase; 
    font-weight: 600; 
@@ -131,4 +137,35 @@ margin: 1px 1px;
    margin-top: 28px; 
    display: inline-block; 
 
+}
+ /*3dayCast*/
+ .tdcast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.days{
+    margin: 5px 5px;
+    background-color:#FBFFEB  ;
+    border: clear;
+    text-align: center;
+    width: 150px;
+    height: 180px;
+}
+.days h2{
+    margin: 1px;
+
+}
+/*Cards*/
+.cards{
+    display: flex;
+}
+.cards section{
+    text-align: center;
+    border: solid 1px;
+    width: 300px;
+    margin: 2px;
+    padding: 2px;
 }
