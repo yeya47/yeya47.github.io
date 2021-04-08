@@ -28,6 +28,11 @@
 
     }
 /*Hero*/
+.heroj img{
+    height: 400px;
+    width: 100%;
+    margin: 1px 1px;
+    }
 .hero{
     position: relative;
 

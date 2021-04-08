@@ -179,10 +179,10 @@ margin: 1px 1px;
     display: flex;
 }
 .cards section{
-    color: #fff;
-    background-color: #EA6A47;
+    color: #02020B;
+    background-color: #7E909A;
     text-align: center;
-    border: solid 1px #1c4e80;
+    border: clear;
     width: 300px;
     margin: 2px;
     padding: 2px;
