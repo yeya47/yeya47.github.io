@@ -43,6 +43,19 @@
         margin: 1px 1px;
         }
 
+        .directory{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .directory section{
+            text-align: center;
+            border: solid 1px;
+            width: 300px;
+            height: 535px;
+            margin: 2px;
+            padding: 2px;
+        }
+
 
 
 

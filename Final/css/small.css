@@ -249,7 +249,7 @@ margin: 1px 1px;
     align-items: center;
 }
 .details {
-    
+    display: table-cell;
     align-items: center;
     width: 500px;
     text-align: center;

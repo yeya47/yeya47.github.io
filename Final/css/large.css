@@ -129,6 +129,9 @@
     grid-column: 3/4;
     width: 250px;
 }
+.details{
+    display: table-cell;
+}
 
 
 }
