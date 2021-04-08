@@ -1,0 +1,32 @@
+@media only screen and (min-width: 45em){
+
+ nav button{
+        display: none;}
+
+
+
+        nav ul li a {
+            margin-left:2% ;
+
+        }
+        nav ul li {
+            display:inline-flex;
+            
+        }
+
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3) ;
+        padding: .6rem 1rem;
+
+
+    }
+    nav ul.hide{
+        display: block;
+
+    }
+
+
+
+
+}
