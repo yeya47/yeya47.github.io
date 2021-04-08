@@ -77,6 +77,17 @@
     margin: 2px;
     padding: 2px;
 }
+.cards h2{
+    margin: 15px;
+}
+.cards h3, p{
+    margin: 10px;
+}
+.cards img{
+    margin: 5px;
+    width: 250px;
+    height: auto;
+}
 .directory {
     display: grid;
     grid-template-columns: 1fr  1fr 1fr;
