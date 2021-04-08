@@ -9,7 +9,7 @@ fetch(requestURL)
 .then(function(jsonObject) {
 
     const business =jsonObject['business'];
-    const cards = document.querySelector('.cards')
+    const cards = document.querySelector('.directory')
 
     business.forEach(business => {
         

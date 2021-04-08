@@ -40,6 +40,7 @@ h1{
 h2 {font-family: 'Nanum Myeongjo', serif;
     text-align: center;
     font-size: 26px;
+    margin: 10px;
    
 }
 p{
@@ -169,6 +170,13 @@ margin: 1px 1px;
     display: flex;
 }
 .cards section{
+    text-align: center;
+    border: solid 1px;
+    width: 300px;
+    margin: 2px;
+    padding: 2px;
+}
+.directory section{
     text-align: center;
     border: solid 1px;
     width: 300px;
