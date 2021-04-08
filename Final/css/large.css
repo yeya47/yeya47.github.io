@@ -28,12 +28,22 @@
 
     }
     
+    header img {
+        height: 200px;
+        width: 300px;
+    }
 /*Hero*/
-.heroj img{
+.hero img{
     height: 400px;
     width: 100%;
     margin: 1px 1px;
     }
+    .hero img{
+        height: 400px;
+        width: 100%;
+        margin: 1px 1px;
+        }
+
 .hero{
     position: relative;
 
