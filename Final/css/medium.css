@@ -36,6 +36,12 @@
         justify-content: center;
         align-items: center;
     }
+    .hero img{
+      
+        height: 350px;
+        width: 700px;
+        margin: 1px 1px;
+        }
 
 
 
