@@ -81,6 +81,18 @@
     display: grid;
     grid-template-columns: 1fr  1fr 1fr;
 }
+#why{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.join{
+    display: grid;
+    grid-column: 1/3;
+}
+.acbutton{
+    display: grid;
+    grid-column: 4/4;
+}
 
 
 }
