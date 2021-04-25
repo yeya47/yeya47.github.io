@@ -129,17 +129,22 @@
     grid-column: 3/4;
     width: 250px;
 }
-.details{
+#dtls{
     display: grid;
-    grid-column: 3/4;
+    grid-column: 2/4;
+    grid-row: 1/2;
 }
 #report{
     display: grid;
     grid-column: 1/2;
+    grid-row: 1/2;
+
 }
 .app{
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 
 }
 
