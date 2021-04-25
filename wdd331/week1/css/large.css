@@ -1,11 +1,18 @@
 @media only screen and (min-width:64rem){
     body{
-        width: 900px;
-        display: flex;
-        flex-direction: initial;
+        max-width: 900px;
+       
+    }
+    main{
+        display: grid;
     }
     header{
-
+        float: left;
+        height:1300px;;
     }
-
+    
+    article{
+        margin:20px;
+        padding: 10px;
+    }
 }

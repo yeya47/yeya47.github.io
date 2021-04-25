@@ -40,6 +40,7 @@ nav ul{
     list-style-type: none;  
 }
 nav ul li a{
+    margin: 10px 10px;
     color: #FAEBD7;
     text-decoration: none;
     
