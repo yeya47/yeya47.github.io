@@ -1,0 +1,18 @@
+/* Variables*/
+
+/*colors
+$body-background-color: darkred;
+$form-background-color: white;
+$input-color: white;
+$headlines-color : white;*/
+body{
+    background-color: $body-background-color;  
+}
+
+ // Variable assignment
+ $my-variable: 42px;
+
+ // Variable usage
+ .foo {
+      width: $my-variable;
+ }
